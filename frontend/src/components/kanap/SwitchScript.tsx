@@ -17,7 +17,7 @@ export const SwitchScript: FC<IKanapSwitchScript> = (props): ReactElement => {
             className={`switchScript ${props.isScriptActive ? 'active' : ''}`}
             onClick={(): void => props.switchScript()}
         >
-            {!props.isScriptActive ? 'Activer le script' : 'Désactiver le script'}
+            {!props.isScriptActive ? 'Activer le script !' : 'Désactiver le script !'}
         </div>
     );
     /****************************************************/
