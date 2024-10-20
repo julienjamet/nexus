@@ -1,0 +1,9 @@
+node_modules/
+build/
+
+package-lock.json
+.env
+
+src/styles/*.scss
+src/styles/*.map
+src/styles/kanap
