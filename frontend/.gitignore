@@ -6,3 +6,4 @@ package-lock.json
 
 src/styles/*.scss
 src/styles/*.map
+src/styles/kanap
