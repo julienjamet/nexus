@@ -1,12 +1,19 @@
 {
     "author": "Julien Jamet",
     "name": "nexus_backend",
-    "main": "./dist/index.js",
     "scripts": {
         "dev": "concurrently -n 'TS,JS' -c 'blue,yellow' -p [{name}] 'tsc --watch' 'nodemon --quiet ./dist/index.js'"
     },
     "devDependencies": {
+        "@types/node": "^22.7.7",
         "concurrently": "^9.0.1",
         "nodemon": "^3.1.7"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "helmet": "^8.0.0",
+        "mongoose": "^8.7.2"
     }
 }
