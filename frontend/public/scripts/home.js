@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/kanap/get/sofas')
+fetch('/kanap/get/sofas')
 
     .then((response) => {
         if (response.ok) {
