@@ -47,7 +47,7 @@ h1 {
 
 .header {
   justify-content: flex-start;
-  background-color: green;
+  background-color: #3498db;
   padding-left: 5%;
 }
 .header ul {
@@ -111,7 +111,7 @@ h1 {
   cursor: pointer;
 }
 .menu ul li:hover {
-  color: green;
+  color: #3498db;
   letter-spacing: 1px;
 }
 
@@ -178,7 +178,7 @@ h1 {
 }
 
 main {
-  background-color: green;
+  background-color: #3498db;
   margin-top: -5px;
 }
 main.home {
