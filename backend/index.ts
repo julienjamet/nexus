@@ -45,6 +45,6 @@ app.get('/*', (req: Request, res: Response): void => {
 /****************************************************/
 
 /******************************************LISTENING*/
-app.listen(3000, (): void => console.log(`${ansi.green}Server launched on port [ ${ansi.yellow}${3000}${ansi.green} ]`));
+app.listen(3000, (): void => console.log(`${ansi.green}Server launched on port [ ${ansi.yellow}${3000}${ansi.green} ] !`));
 /****************************************************/
 /************************************************************************/
