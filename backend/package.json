@@ -2,7 +2,9 @@
     "author": "Julien Jamet",
     "name": "nexus_backend",
     "scripts": {
-        "dev": "concurrently -n 'TS,JS' -c 'blue,yellow' -p [{name}] 'tsc --watch' 'nodemon --quiet ./dist/index.js'"
+        "dev": "concurrently -n 'TS,JS' -c 'blue,yellow' -p [{name}] 'tsc --watch' 'nodemon --quiet ./dist/index.js'",
+        "build": "npm run build:frontend && npm i && tsc && node ./dist/index.js",
+        "build:frontend": "cd ../frontend && npm i && npm run build"
     },
     "devDependencies": {
         "@types/node": "^22.7.7",
